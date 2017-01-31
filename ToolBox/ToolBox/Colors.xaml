@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ToolBox">
+    <Color x:Key="QLGreen">#FF6C9F2E</Color>
+    <Color x:Key="QLBlue">#FF2081BF</Color>
+    <Color x:Key="QLNavy">#FF0C4569</Color>
+    <Color x:Key="QLOrange">#FFFF9B00</Color>
+    <Color x:Key="QLRed">#FFB5121B</Color>
+    <Color x:Key="QLPurple">#FF551387</Color>
+    <Color x:Key="BackGround">#FF9DA39C</Color>
+
+</ResourceDictionary>

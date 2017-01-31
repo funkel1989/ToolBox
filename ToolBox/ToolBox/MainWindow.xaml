@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource BackGround}"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="&#x9;&#x9;Quicken Loans Tool Box&#xD;&#xA;&#xD;&#xA;&#x9;Please Click Login Below To Continue:&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;Authorized Users Only" Height="123" Margin="21.6,10,33,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="button" Content="Login" Height="46.4" Margin="10,0,10,95.4" VerticalAlignment="Bottom" Style="{DynamicResource MainWindowLoginButton}"/>
     </Grid>
 </Window>
