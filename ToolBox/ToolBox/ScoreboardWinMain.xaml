@@ -20,32 +20,32 @@
         <Grid.Background>
             <SolidColorBrush Color="{DynamicResource BackGround}"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Scoreboard&#xD;&#xA;Big Screen" Margin="10" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="ScoreboardBigScreenButton" Content="Scoreboard&#xD;&#xA;Big Screen" Margin="10" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLBlue}"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button_Copy" Content="Call Information" Margin="10" Grid.Column="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="CallInformationButton" Content="Call Information" Margin="10" Grid.Column="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLGreen}"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button_Copy1" Content="Agent Information" Margin="10,10,12.998,10" Grid.Column="2" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="AgentInformationButton" Content="Agent Information" Margin="10,10,12.998,10" Grid.Column="2" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLNavy}"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button_Copy2" Content="Multi-skill View" Margin="10" Grid.Row="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="MultiSkillViewButton" Content="Multi-skill View" Margin="10" Grid.Row="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLOrange}"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button_Copy3" Content="Break/Lunch&#xD;&#xA;Viewer" Margin="10" Grid.Column="1" Grid.Row="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="BreakLunchViewerButton" Content="Break/Lunch&#xD;&#xA;Viewer" Margin="10" Grid.Column="1" Grid.Row="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLPurple}"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button_Copy4" Content="Exit" Margin="10,10,12.998,10" Grid.Column="2" Grid.Row="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="ScoreboardWinMainExitButton" Content="Exit" Margin="10,10,12.998,10" Grid.Column="2" Grid.Row="1" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLRed}"/>
             </Button.Background>
