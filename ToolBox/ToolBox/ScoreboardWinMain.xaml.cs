@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace ToolBox
 {
     /// <summary>
-    /// Interaction logic for ToolboxMain.xaml
+    /// Interaction logic for ScoreboardWinMain.xaml
     /// </summary>
-    public partial class ToolboxMain : Window
+    public partial class ScoreboardWinMain : Window
     {
-        public ToolboxMain()
+        public ScoreboardWinMain()
         {
             InitializeComponent();
-        }
-
-        private void ScoreBoard_Click(object sender, RoutedEventArgs e)
-        {
-            ScoreboardWinMain scorewin = new ScoreboardWinMain();
-            scorewin.Show();
         }
     }
 }
