@@ -8,5 +8,6 @@
     <Color x:Key="QLRed">#FFB5121B</Color>
     <Color x:Key="QLPurple">#FF551387</Color>
     <Color x:Key="BackGround">#FF9DA39C</Color>
+    <Color x:Key="Black">#FF101011</Color>
 
 </ResourceDictionary>

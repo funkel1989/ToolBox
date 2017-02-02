@@ -122,5 +122,16 @@ namespace ToolBox
             return IntPtr.Zero;
         }
 
-     }
+        private void MainWindowLoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow logwin = new LoginWindow();
+            logwin.Show();
+            this.Close();
+        }
+
+        private void MainWindowExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+    }
 }

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolBox"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="100" MinWidth="150" SizeToContent="WidthAndHeight">
+        WindowStartupLocation="CenterScreen"
+        Title="ToolboxMainWindow" MinHeight="100" MinWidth="150" SizeToContent="WidthAndHeight">
       <Grid MinWidth="520" MinHeight="320" RenderTransformOrigin="0.5,0.5">
         <Grid.RenderTransform>
             <TransformGroup>
@@ -18,8 +19,8 @@
         <Grid.Background>
             <SolidColorBrush Color="{DynamicResource BackGround}"/>
         </Grid.Background>
-        <Label x:Name="label" Content="&#x9;&#x9;Quicken Loans Tool Box&#xD;&#xA;&#xD;&#xA;&#x9;Please Click Login Below To Continue:&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;Authorized Users Only" Height="123" Margin="33.2,0,33,187.4" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="16"/>
-        <Button x:Name="button" Content="Login" Height="46.4" Margin="10,0,10,95.4" VerticalAlignment="Bottom" Style="{DynamicResource MainWindowLoginButton}" FontWeight="Bold"/>
-        <Button x:Name="button_Copy" Content="EXIT" Height="46.4" Margin="10,0,10,44" VerticalAlignment="Bottom" Style="{DynamicResource MainWindowLoginButton}" FontWeight="Bold"/>
+        <Label x:Name="MainWindowTitle" Content="&#x9;&#x9;Quicken Loans Tool Box&#xD;&#xA;&#xD;&#xA;&#x9;Please Click Login Below To Continue:&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;Authorized Users Only" Height="123" Margin="33.2,0,33,187.4" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="16"/>
+        <Button x:Name="MainWindowLoginButton" Content="Login" Height="46.4" Margin="10,0,10,95.4" VerticalAlignment="Bottom" Style="{DynamicResource MainWindowLoginButton}" FontWeight="Bold" Click="MainWindowLoginButton_Click"/>
+        <Button x:Name="MainWindowExitButton" Content="EXIT" Height="46.4" Margin="10,0,10,44" VerticalAlignment="Bottom" Style="{DynamicResource MainWindowLoginButton}" FontWeight="Bold" Click="MainWindowExitButton_Click"/>
     </Grid>
 </Window>
