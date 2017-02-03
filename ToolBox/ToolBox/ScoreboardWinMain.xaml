@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToolBox"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="ScoreboardWinMain" Height="320" Width="540">
     <Grid>
         <Grid.RowDefinitions>
@@ -20,7 +21,7 @@
         <Grid.Background>
             <SolidColorBrush Color="{DynamicResource BackGround}"/>
         </Grid.Background>
-        <Button x:Name="ScoreboardBigScreenButton" Content="Scoreboard&#xD;&#xA;Big Screen" Margin="10" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold">
+        <Button x:Name="ScoreboardBigScreenButton" Content="Scoreboard&#xD;&#xA;Big Screen" Margin="10" Style="{DynamicResource ToolboxMainButtonTemplate}" FontWeight="Bold" Click="ScoreboardBigScreenButton_Click">
             <Button.Background>
                 <SolidColorBrush Color="{DynamicResource QLBlue}"/>
             </Button.Background>

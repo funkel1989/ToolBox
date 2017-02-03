@@ -23,5 +23,11 @@ namespace ToolBox
         {
             InitializeComponent();
         }
+
+        private void ScoreboardBigScreenButton_Click(object sender, RoutedEventArgs e)
+        {
+            ScoreBoardBigViewWindow scorebigwin = new ScoreBoardBigViewWindow();
+            scorebigwin.Show();
+        }        
     }
 }

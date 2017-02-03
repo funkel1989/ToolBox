@@ -56,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ScoreBoardBigViewWindow.xaml.cs">
+      <DependentUpon>ScoreBoardBigViewWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ScoreboardWinMain.xaml.cs">
       <DependentUpon>ScoreboardWinMain.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ScoreBoardBigViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ScoreboardWinMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
