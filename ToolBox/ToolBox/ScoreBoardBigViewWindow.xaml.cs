@@ -7,33 +7,29 @@ using System.Windows.Media;
 
 namespace ToolBox
 {
+
+    
     /// <summary>
     /// Interaction logic for ScoreBoardBigViewWindow.xaml
     /// </summary>
     public partial class ScoreBoardBigViewWindow : Window
     {
+        int calls = 4;
+
         public ScoreBoardBigViewWindow()
         {
             InitializeComponent();
         }
 
-        public class TextToColorConverter : IValueConverter
+        public Brush BackColor
         {
-            public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+            
+            
+            get
             {
-                if (((int)value) > 0)
-                    return Brushes.Yellow;
-                else
-                    // for default value 
-                    return Brushes.Blue;
+                if (calls > 0) return Brushes.Yellow;
+                return Brushes.WhiteSmoke;
             }
-
-            public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
-            {
-                // no need to implement it 
-                throw new NotImplementedException();
-            }
-
         }
-    }    
+    }
 }
